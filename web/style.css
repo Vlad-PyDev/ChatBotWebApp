@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #96fbc4, #f9f586);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 400px;
+}

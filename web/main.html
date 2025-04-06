@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Чат-бот - Основное окно</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Чат-бот</h1>
+    <div id="chatWindow" style="height:300px; overflow-y:scroll; border:1px solid #ccc; margin-bottom:10px; padding:5px;"></div>
+    <input type="text" id="userMessage" placeholder="Введите сообщение">
+    <button onclick="sendMessage()">Отправить</button>
+  </div>
+  <script src="/eel.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
